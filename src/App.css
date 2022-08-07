@@ -12,9 +12,32 @@ body {
   margin-top: 40px;
 }
 
+h1 {
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
 .aplicacion-tareas{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+/* Lista de Tareas */
+
+.tareas-lista-principal{
+  width: 600px;
+  min-height: 500px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -ms-border-radius: 26px;
+  -o-border-radius: 26px;
 }
