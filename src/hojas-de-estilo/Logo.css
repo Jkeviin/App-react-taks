@@ -1,0 +1,14 @@
+/* LOGO de FREECODECAMP */
+
+.freecodecamp-logo-contenedor{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.freecodecamp-logo {
+    width: 400px;
+    height: 50px;
+}

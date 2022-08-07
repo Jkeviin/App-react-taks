@@ -1,0 +1,35 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: white;
+  background-color: #1b1b32;
+  font-family: Lato, sans-serif;
+  margin-top: 40px;
+}
+
+.aplicacion-tareas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LOGO de FREECODECAMP */
+
+.freecodecamp-logo-contenedor{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.freecodecamp-logo {
+  width: 400px;
+  height: 50px;
+}
